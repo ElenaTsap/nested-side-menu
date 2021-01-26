@@ -4,14 +4,19 @@ body {
     overflow-x: hidden;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: blue;
 }
 
 #menu-container {
     background-color: rgb(184, 184, 184);
     width: 80%;
     height: 100vh;
-    display: flex;
+    display: flex ;
     flex-direction: column;
+}
+
+#menu-container > div {
+    display: block;
 }
 
 div {
